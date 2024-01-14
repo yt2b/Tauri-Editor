@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": ["@typescript-eslint"],
+    "parser": "@typescript-eslint/parser",
+    "rules": {
+        "semi": "error"
+    }
+}
